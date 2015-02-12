@@ -11,3 +11,6 @@ I have implemented the pseudo code mentioned in the blog for PHP.
 3. Replace the token with your own app/device token in endpoint-example.php
 
 
+I have written my own blog post about handling app token through SNS.
+http://uzairjawed.me/handling-amazon-sns-tokens-efficiently-push-notification/
+
