@@ -23,7 +23,7 @@ else { // subsequent user with the same token
 	$mysqli->query($query);
 }
 
-// get the attributes of the Endpoint ARN and check if it is still a valid token and enabled or not.
+// get the attributes of the Endpoint ARN and check if it is still has valid token and it is marked as enabled or not.
 $endpointAtt = $sns->getEndpointAttributes($endpointArn,$token);
 
 if($endpointAtt == true) { // Endpoint is either have invalid token or it is marked as disabled.
